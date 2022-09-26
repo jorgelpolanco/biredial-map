@@ -3629,7 +3629,7 @@
                  "class":"area",
                  "height":602.666666666667,
                  "id":24,
-                 "name":"Auditorio",
+                 "name":"jitsiAuditorio",
                  "properties":[
                         {
                          "name":"focusable",
@@ -3642,9 +3642,14 @@
                          "value":"Auditorio"
                         }, 
                         {
+                         "name":"jitsiTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
                          "name":"zoom_margin",
                          "type":"float",
-                         "value":2
+                         "value":1
                         }],
                  "rotation":0,
                  "visible":true,
